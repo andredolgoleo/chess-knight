@@ -29,6 +29,8 @@ body {
 
 .active {
     background-image: url(../chess/chess-knight.png);
+    background-position: center;
+    background-repeat: no-repeat;
     background-color: orange;
     background-size: contain;
 }
