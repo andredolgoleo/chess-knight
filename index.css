@@ -1,8 +1,14 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
 #field {
     width: 320px;
     height: 320px;
     box-sizing: content-box;
     border: 1px solid black;
+    background-image: url(../chess/chess-knight.png);
 }
 
 #field::after {
@@ -19,4 +25,16 @@
 
 .bg-black {
     background: #525252;
+}
+
+.active {
+    background-image: url(../chess/chess-knight.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: orange;
+    background-size: contain;
+}
+
+.green {
+    background: green;
 }
