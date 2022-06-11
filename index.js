@@ -76,4 +76,3 @@ function horse() {
     } // left side
 }
 // end knight ways to go
-
