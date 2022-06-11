@@ -79,4 +79,3 @@ function horse() {
 }
 
 // end knight ways how to go
-
