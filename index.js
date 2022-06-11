@@ -74,8 +74,5 @@ function horse() {
     if (+x - 2 >= 0 && +y + 2 < 8) {
         document.querySelector(`[data-x="${+x - 2}"][data-y="${+y + 1 }"]`).classList.add('active');
     } // left side
-
-
 }
-
-// end knight ways how to go
+// end knight ways to go
